@@ -660,7 +660,6 @@ echo cors();
 	</div>
     <div id="right">
 <?php
-        $sandbox = "allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation";
         foreach($link as $place => $val) {
             echo "\t\t<embed id=\"".$val['app']."\" src=\"".$val['url']."\" type=\"text/html\"></embed>\n";
         } 
