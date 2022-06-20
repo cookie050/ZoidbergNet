@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+Options All -Indexes
+
+<Files ~ "\.json$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+RewriteRule (.*) /index.php [QSA,L]

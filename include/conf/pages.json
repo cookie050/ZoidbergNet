@@ -1,0 +1,29 @@
+{
+	"0":
+	{
+		"placement": "1",
+		"active": "1",
+		"name": "Page 1",
+		"app": "Page1",
+		"url": "http://url/",
+		"icon": "http://url/favicon.png"
+	},	
+    "1":
+	{
+		"placement": "2",
+		"active": "1",
+		"name": "Page 2",
+		"app": "Page2",
+		"url": "http://url/",
+		"icon": "http://url/favicon.png"
+	},
+    "2":
+	{
+		"placement": "3",
+		"active": "1",
+		"name": "Page 3",
+		"app": "Page3",
+		"url": "http://url/",
+		"icon": "http://url/favicon.png"
+	}
+}

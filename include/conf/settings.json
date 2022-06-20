@@ -1,0 +1,24 @@
+{
+    "users":
+    {
+        "0":
+            {
+                "username": "default_admin",
+                "password": "password1",
+                "name": "Admin",
+                "picture": "/include/img/users/",
+                "hash": "zoidberg",
+                "rights": "admin" 
+            },
+        "1":
+            {
+                "username": "default_user",
+                "password": "password2",
+                "name": "User",
+                "picture": "/include/img/users/",
+                "hash": "zoidberg",
+                "rights": "user" 
+            }
+    },
+    "settings": { }
+}
