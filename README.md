@@ -1,4 +1,4 @@
 # ZoidbergNet
-Homelab services bundles webinterfaces
+Homelab services for bundling of webinterfaces
 
 # Still in devolvement.
