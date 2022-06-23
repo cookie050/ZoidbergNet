@@ -1,10 +1,9 @@
 <html>
-<body>
-  <head>
-  	<link rel="icon" href="/include/img/favicon.png" sizes="32x32" type="image/png" />
+   <head>
+	<link rel="icon" href="/include/img/favicon.png" sizes="32x32" type="image/png" />
   	<link rel="icon" href="/include/img/favicon.ico" sizes="32x32" type="image/x-icon" />
-    <link rel="shortcut icon" href="/include/img/favicon.png" sizes="32x32" type="image/png" />
-    <link rel="shortcut icon" href="/include/img/favicon.ico" sizes="32x32" type="image/x-icon" />
+    	<link rel="shortcut icon" href="/include/img/favicon.png" sizes="32x32" type="image/png" />
+    	<link rel="shortcut icon" href="/include/img/favicon.ico" sizes="32x32" type="image/x-icon" />
 <?php
 session_start();
 include("include/assests/login.php");
@@ -49,7 +48,7 @@ if($validUser) {
     <div id="user_menu">
         <a style="float: right; margin-right:15px; margin-top: 10px;" href="javascript:void(0)" onclick="toggleUserMenu('close')">X</a>
     </div>
-</body>
+  </body>
 <?php
 } 
 ?>
