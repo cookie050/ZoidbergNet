@@ -9,6 +9,7 @@ session_start();
 include("include/assests/login.php");
 include("include/assests/functions.php");
 include("include/assests/headers.php");
+include("include/assests/version_check.php");
       
 if($validUser) {
 ?>
